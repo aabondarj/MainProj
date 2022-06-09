@@ -126,3 +126,5 @@ function checkSavings() {
     }
 }
 checkSavings();
+
+console.log(appData);
