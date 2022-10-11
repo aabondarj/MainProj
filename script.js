@@ -96,7 +96,7 @@ while(i < 2);
 
 function defectDayBudget() {
     appData.moneyPerDay = (appData.budget / 30).toFixed();
-    alert(appData.moneyPerDay)
+    alert("Бюджет на 1 день составляет " + appData.moneyPerDay + "руб.")
 }
 defectDayBudget();
 
